@@ -70,7 +70,12 @@ client.on("messageCreate", (message) => {
     }
        
 })
-
+client.on("messageCreate", (message) => {
+    if(message.content == "test"){
+        message.reply("*what* ")
+    }
+       
+})
 
 
 
