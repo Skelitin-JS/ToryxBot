@@ -1,1 +1,3 @@
 worker: node index.js
+worker: node Skelitin-JS/ToryxBot/index.js
+node index.js
