@@ -76,6 +76,12 @@ client.on("messageCreate", (message) => {
     }
        
 })
+client.on("messageCreate", (message) => {
+    if(message.content == "bozo"){
+        message.reply("https://m.media-amazon.com/images/M/MV5BY2ZiMTA3OGYtNjc4ZC00YmQ4LWI1YmYtOTJmMTRiZjM2MDE0XkEyXkFqcGdeQXVyNjA0MTgwOQ@@._V1_QL75_UY281_CR13,0,190,281_.jpg")
+    }
+       
+})
 
 const config = require('./config.json');
 
